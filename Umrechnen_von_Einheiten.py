@@ -23,13 +23,20 @@
   #  print("Deine Geschwindigkeit in km/h ist:", ges2, "km/h")
 
 #Newton und Kilogramm
-wahl = float(input("Wählen der Einheit (Newton=1 oder kg=2): "))
-kraft1 = float(input("Gib den Wert ein: "))
+#wahl = float(input("Wählen der Einheit (Newton=1 oder kg=2): "))
+#kraft1 = float(input("Gib den Wert ein: "))
+
+#if wahl == 1:
+ #   kraft2 = kraft1 / (980665 / 100000)
+  #  print("Deine aufgewendete Kraft ist ca.:", kraft2, "kg")
+    
+#elif wahl == 2:
+ #   kraft2 = kraft1 * (980665 / 100000)
+  #  print("Dein Gewicht hat eine Kraft von ca.:", kraft2, "N")
+
+#Meile und Kilometer
+wahl = float(input("Wählen der Längeneinheit (Meile=1 oder km=2): "))
+lae1 = float(input("Wie lang ist deine Strecke?: "))
 
 if wahl == 1:
-    kraft2 = kraft1 / (980665 / 100000)
-    print("Deine aufgewendete Kraft ist ca.:", kraft2, "kg")
-    
-elif wahl == 2:
-    kraft2 = kraft1 * (980665 / 100000)
-    print("Dein Gewicht hat eine Kraft von ca.:", kraft2, "N")
+    lae2 = lae1 * (
