@@ -39,4 +39,9 @@ wahl = float(input("Wählen der Längeneinheit (Meile=1 oder km=2): "))
 lae1 = float(input("Wie lang ist deine Strecke?: "))
 
 if wahl == 1:
-    lae2 = lae1 * (
+    lae2 = lae1 * (1609344/1000000)
+    print("Deine Distanz sind ca.:", lae2, "km")
+    
+elif wahl == 2:
+    lae2 = lae1 * (62137119/100000000)
+    print("Deine Distanz ist ca.:", lae2, "Meilen")
