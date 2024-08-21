@@ -35,13 +35,25 @@
   #  print("Dein Gewicht hat eine Kraft von ca.:", kraft2, "N")
 
 #Meile und Kilometer
-wahl = float(input("Wählen der Längeneinheit (Meile=1 oder km=2): "))
-lae1 = float(input("Wie lang ist deine Strecke?: "))
+#wahl = float(input("Wählen der Längeneinheit (Meile=1 oder km=2): "))
+#lae1 = float(input("Wie lang ist deine Strecke?: "))
+
+#if wahl == 1:
+ #   lae2 = lae1 * (1609344/1000000)
+  #  print("Deine Distanz sind ca.:", lae2, "km")
+    
+#elif wahl == 2:
+ #   lae2 = lae1 * (62137119/100000000)
+  #  print("Deine Distanz ist ca.:", lae2, "Meilen")
+    
+#Euro und Yen
+wahl = float(input("Wählen der Währung(Euro=1 oder Yen=2: "))
+wae1 = float(input("Geben Sie den Betrag an: "))
 
 if wahl == 1:
-    lae2 = lae1 * (1609344/1000000)
-    print("Deine Distanz sind ca.:", lae2, "km")
+    wae2 = wae1 * (1622/10)
+    print("Dein Betrag ist ca.:", wae2, "yen")
     
 elif wahl == 2:
-    lae2 = lae1 * (62137119/100000000)
-    print("Deine Distanz ist ca.:", lae2, "Meilen")
+    wae2 = wae1 * (62 / 10000)
+    print("Dein Betrag ist ca.:", wae2, "€")
