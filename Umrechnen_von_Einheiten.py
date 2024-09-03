@@ -23,12 +23,14 @@ while True:
             #Rechnung Celsius in Fahrenheit
             if wahl == 1:
                 temp2 = temp1 * 18 / 10 + 32
-                print("Deine Temperatur in Fahrenheit ist:", temp2, "°F")
+                temp3 = round (temp2, 2)
+                print("Deine Temperatur in Fahrenheit ist:", temp3, "°F")
         
             #Rechnung Fahrenheit in Celsius
             elif wahl == 2:
                 temp2 = (temp1 - 32) * 5 / 9
-                print("Deine Temperatur in Celsius ist:", temp2, "°C")
+                temp3 = round(temp2, 2)
+                print("Deine Temperatur in Celsius ist:", temp3, "°C")
                 
             #Ende der Temperatur While-Schleife
             print("")
@@ -44,12 +46,14 @@ while True:
             #Rechnung km/h in m/s
             if wahl == 1:
                 ges2 = ges1 / (36 / 10)
-                print("Deine Geschwindigkeit in m/s ist:", ges2, "m/s")
+                ges3 = round(ges2, 2)
+                print("Deine Geschwindigkeit in m/s ist:", ges3, "m/s")
         
             #Rechnung m/s in km/h
             elif wahl == 2:
                 ges2 = ges1 * (36 / 10)
-                print("Deine Geschwindigkeit in km/h ist:", ges2, "km/h")
+                ges3 = (ges2, 2)
+                print("Deine Geschwindigkeit in km/h ist:", ges3, "km/h")
                 
             #Ende der Geschwindigkeits While-Schleife
             print ("")
@@ -65,12 +69,14 @@ while True:
             #Rechnung Newton in Kilogramm
             if wahl == 1:
                 kraft2 = kraft1 / (980665 / 100000)
-                print("Deine aufgewendete Kraft ist ca.:", kraft2, "kg")
+                kraft3 = (kraft2, 2)
+                print("Deine aufgewendete Kraft ist ca.:", kraft3, "kg")
         
             #Rechnung Kilogramm in Newton
             elif wahl == 2:
                 kraft2 = kraft1 * (980665 / 100000)
-                print("Dein Gewicht hat eine Kraft von ca.:", kraft2, "N")
+                kraft3 = round(kraft2, 2)
+                print("Dein Gewicht hat eine Kraft von ca.:", kraft3, "N")
                 
             #Ende der Kraft While-Schleife
             print("")
@@ -86,12 +92,14 @@ while True:
             #Rechnung Meilen in Kilometer
             if wahl == 1:
                 lae2 = lae1 * (1609344 / 1000000)
-                print("Deine Distanz sind ca.:", lae2, "km")
+                lae3 = round(lae2, 2)
+                print("Deine Distanz sind ca.:", lae3, "km")
         
             #Rechnung Kilometer in Meilen
             elif wahl == 2:
                 lae2 = lae1 * (62137119 / 100000000)
-                print("Deine Distanz ist ca.:", lae2, "Meilen")
+                lae3 = round(lae2, 2)
+                print("Deine Distanz ist ca.:", lae3, "Meilen")
                 
             #Ende der Distanz While-Schleife
             print("")
@@ -107,12 +115,14 @@ while True:
             #Rechnung Euro in Yen
             if wahl == 1:
                 wae2 = wae1 * (1622 / 10)
-                print("Dein Betrag ist ca.:", wae2, "yen")
+                wae3 = round(wae2, 2)
+                print("Dein Betrag ist ca.:", wae3, "yen")
         
             #Rechnung Yen in Euro
             elif wahl == 2:
                wae2 = wae1 * (62 / 10000)
-               print("Dein Betrag ist ca.:", wae2, "€")
+               wae3 = round(wae2, 2)
+               print("Dein Betrag ist ca.:", wae3, "€")
                
             #Ende der Währungs While-Schleife
             print("")
