@@ -99,6 +99,7 @@ while True:
     if input("Möchtest du einen anderen Rechner auswählen? (ja/nein): ").lower() != 'ja':
         break
     
+print("")
 print ("Das Programm ist beendet")
 
 #Programmende
