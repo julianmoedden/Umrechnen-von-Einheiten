@@ -1,14 +1,16 @@
 #Auswahl
 def main_menu ():
+    print("")
     print("Die möglichen Rechner:")
-    print("Temperatur=1,")
-    print("Geschwindigkeit=2,")
-    print("Kraft/Gewicht=3,")
-    print("Distanz=4,")
-    print("Währung=5.")
+    print("Temperatur      = 1,")
+    print("Geschwindigkeit = 2,")
+    print("Kraft/Gewicht   = 3,")
+    print("Distanz         = 4,")
+    print("Währung         = 5.")
 
 while True:
     main_menu()
+    print("")
     rechner = float(input("Wähle einen Rechner: "))
 
 #Fahrenheit und Celsius
@@ -58,7 +60,7 @@ while True:
             elif wahl == 2:
                 kraft2 = kraft1 * (980665 / 100000)
                 print("Dein Gewicht hat eine Kraft von ca.:", kraft2, "N")
-                print("")
+            print("")
             if input("Möchtest du nochmal eine Kraft rechnen? (ja/nein): ").lower()!= 'ja':
                 break
 
@@ -75,7 +77,7 @@ while True:
             elif wahl == 2:
                 lae2 = lae1 * (62137119 / 100000000)
                 print("Deine Distanz ist ca.:", lae2, "Meilen")
-                print("")
+            print("")
             if input("Möchtest du noch eine Länge rechnen? (ja/nein): ").lower() != 'ja':
                 break
     
@@ -92,7 +94,7 @@ while True:
             elif wahl == 2:
                wae2 = wae1 * (62 / 10000)
                print("Dein Betrag ist ca.:", wae2, "€")
-               print("")
+            print("")
             if input("Möchtest du noch eine Währung rechnen? (ja/nein): ").lower() != 'ja':
                 break
     
